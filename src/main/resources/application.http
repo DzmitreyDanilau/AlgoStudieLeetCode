@@ -1,0 +1,11 @@
+### Authenticate
+POST http://localhost:8089/auth?expireAfter=10
+
+username
+
+### Just get
+GET http://localhost:8089/just-get
+Authorization: 1681483568
+
+### Refresh
+GET http://localhost:8089/refresh?refreshToken=d25e51bb-3929-4963-bb8e-3d1761f117c3
