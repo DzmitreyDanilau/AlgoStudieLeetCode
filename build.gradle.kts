@@ -1,8 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version "1.6.20"
-    id("org.springframework.boot") version "2.7.10"
+    kotlin("jvm") version "1.8.0"
 }
 
 group = "org.example"
@@ -14,7 +13,6 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
-    implementation("org.springframework.boot:spring-boot-starter-web:2.7.10")
 }
 
 tasks.test {
